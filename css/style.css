@@ -709,3 +709,16 @@ textarea {
     height: 50px;
     border-radius: 50%;
     background: rgba(59, 93, 80, 0.2); }
+
+
+    .why-choose-us-section {
+      padding: 60px 0;
+      background-color: #f8f9fa;
+    }
+    
+    .why-choose-us-content h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+   
+    

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Muebles</title>
+    <link rel="stylesheet" href="scss/styles.css">
+</head>
+<body>
+    <!-- Sección Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="contacto-info">
+            <p><strong>Dirección:</strong> 43 Raymouth Rd, Baltemoer, London 3910</p>
+            <p><strong>Email:</strong> info@yourdomain.com</p>
+            <p><strong>Teléfono:</strong> +1 294 3925 3939</p>
+        </div>
+        <form action="enviar_mensaje.php" method="POST">
+            <input type="text" name="first_name" placeholder="First name">
+            <input type="text" name="last_name" placeholder="Last name">
+            <input type="email" name="email" placeholder="Email address">
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
